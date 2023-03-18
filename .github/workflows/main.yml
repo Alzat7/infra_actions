@@ -63,7 +63,7 @@ jobs:
         uses: docker/build-push-action@v2 
         with:
           push: true
-          tags: alzat7/infra_project:v1
+          tags: alzat7/infra_project
 
 
   deploy:
